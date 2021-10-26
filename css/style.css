@@ -50,3 +50,146 @@ table {
   padding: 0 20px;
 }
 
+.header {
+  height: 100vh;
+  background: url("../image/bg.png") no-repeat center/cover;
+}
+
+.header__top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  column-gap: 23px;
+}
+
+.nav__item a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.nav__item img{
+  width: 20px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  column-gap: 35px;
+}
+
+.header__contact {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+
+.header__phone {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  width: 155px;
+  border-left: 2px solid #fff;
+  padding-left: 15px;
+  color: #FFFFFF;
+}
+
+p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+
+.header__button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0px 19px;
+  height: 47px;
+  background-color: #FF7400;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.header__title {
+  font-weight: normal;
+  color: #D67E35;
+  margin-top: 203px;
+  max-width: 500px;
+}
+
+.header__title h2 {
+  font-size: 50px;
+  line-height: 57px;
+  margin-left: 24px;
+}
+
+.header__title h1 {
+  font-size: 80px;
+  line-height: 92px;
+}
+
+.header__title p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.header__title p::before ,
+.header__title p::after {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+
+.header__title p::before {
+  margin-right: 10px;
+}
+
+.header__title p::after {
+  margin-left: 10px;
+}
+
+.header__main .header__button {
+  margin-top: 35px;
+}
+
+.header__main__button {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__btn__mobile {
+  display: none;
+  width: 30px;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.nav__btn__mobile div {
+  height: 3px;
+  background: #FF7400;
+  border-radius: 50px;
+}
+
+
