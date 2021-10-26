@@ -39,4 +39,45 @@
         display: none;
     }
 
+    .intro__block {
+        row-gap: 14px;
+        flex-direction: column;
+        bottom: 1px;
+        padding-left: 36px;
+    }
+
+    .intro {
+        width: 290px;
+        height: 276px;
+        padding-top: 20px;
+    }
+
+    .intro img {
+        width: 111px;
+        height: 101px;
+
+    }
+
+    .intro h2 {
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+
+
+        color: #2C2C2C;
+    }
+
+    .intro span {
+        color: #BC9060;
+    }
+
+    .intro p {
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        margin: 6px 0px 50px 0px;
+        color: #656363;
+    }
+
 }
